@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  background-color: #460f0f; /* Light gray background color */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #333; /* Darker text color for contrast */
+}
+
+pre {
+  background-color: #fff; /* White background for the preformatted text */
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
